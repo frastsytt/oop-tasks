@@ -47,5 +47,5 @@ function getTasks(e) {
 	// get tasks from LS by this localstorage name
 	tasks = ls.getData("tasks");
 	// create task list by UI
-	ui.taskList(tasks);
+	ui.getTasks(tasks);
 }

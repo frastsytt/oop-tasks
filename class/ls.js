@@ -1,10 +1,10 @@
 class LS {
 	getData(name){
 		let data;
-		if(localStorage.getItem('name') === null){
+		if(localStorage.getItem(name) === null){
 			data = [];
 		} else {
-			data = JSON.parse(localStorage.getItem('name'));
+			data = JSON.parse(localStorage.getItem(name));
 		}
 		return data;
 	}
